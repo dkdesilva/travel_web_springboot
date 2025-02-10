@@ -5,6 +5,7 @@ import LandingRoute from './Pages/LandingRoute/LandingRoute';
 import UpdatePackage from './Pages/UpdatePackage/UpdatePackage';
 import { NotFoundPage } from './Pages/NotFoundPage/NotFoundPage';
 import AdminLogin from './Pages/AdminLogin/AdminLogin';
+import BookPackages from './Pages/BookPackages/BookPackages';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/update/:id" element={<UpdatePackage />} />
         <Route path="/adminlogin" element={<AdminLogin />} />
         <Route path="*" element={<NotFoundPage />} />
+        <Route path="/book" element={<BookPackages />} />
       </Routes>
     </Router>
     </div>

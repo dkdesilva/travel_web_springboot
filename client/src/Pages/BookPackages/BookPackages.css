@@ -1,0 +1,219 @@
+.tour-booking-container {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.phone-number {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background: url("../../assets/login1.jpg") center/cover no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Search Container */
+.search-container {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Tabs */
+.search-tabs {
+    display: flex;
+    justify-content: space-between;
+    background: #3c3c3c;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tab {
+    flex: 1;
+    background: none;
+    border: none;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tab.active {
+    background: #0073e6;
+}
+
+/* Search Form */
+.search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.search-form select, 
+.search-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group select, 
+.input-group input {
+    flex: 1;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-form button {
+    background-color: #0073e6;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-form button:hover {
+    background-color: #005bb5;
+}
+
+.best-price-calendar {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Promo Banner */
+.promo-banner {
+    position: absolute;
+    bottom: 60px;
+    right: 150px; /* Aligns it to the right */
+    text-align: right;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    max-width: 400px;
+}
+
+.promo-banner h2 {
+    font-size: 24px;
+}
+
+.promo-banner h3 {
+    font-size: 28px;
+}
+
+.promo-banner span {
+    font-size: 32px;
+    color: #ffcc00;
+}
+
+.book-now {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.book-now:hover {
+    background-color: #cc5200;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 400px;
+    }
+
+    .search-container {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .promo-banner {
+        right: 10px;
+        bottom: 10px;
+        max-width: 250px;
+        text-align: center;
+    }
+
+    .promo-banner h2 {
+        font-size: 20px;
+    }
+
+    .promo-banner h3 {
+        font-size: 22px;
+    }
+
+    .promo-banner span {
+        font-size: 26px;
+    }
+}
+.promo-banner1{
+    position: absolute;
+    bottom: 265px;
+    right: 150px; /* Aligns it to the right */
+    text-align: left;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    max-width: 400px;
+}
+.bookimg{
+    width: 300px;
+    border-radius: 10px;
+    border-color: #f8f8f8;
+    border:solid;
+    border-width: 1px;
+}
